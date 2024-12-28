@@ -6,18 +6,23 @@ const W_Mark_Admin_Navbar_Setting_Content = new mongoose.Schema({
         type: String,
 
     },
+
     link: {
         type: String,
     },
+
     details: {
         type: String,
     },
+
     createdByName: {
         type: String,
     },
+
     createdByEmail: {
         type: String,
     },
+
     dateOfFormSubmission: {
         type: String,
     },
