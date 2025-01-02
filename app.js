@@ -1,20 +1,17 @@
 const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
-
 const cloudinary = require("cloudinary").v2;
 const os = require("os");
 const moment = require("moment");
 const si = require("systeminformation");
 const exec = require("child_process").exec;
 const shortid = require("shortid");
-
 const mongoose = require("mongoose");
 const alert = require("electron-alert");
 const multer = require("multer");
 const bcryptjs = require("bcryptjs");
 const cookieParser = require("cookie-parser");
-
 const schedule = require("node-schedule");
 
 app.use(cookieParser());
